@@ -14,9 +14,9 @@ pub fn ownership() {
 }
 
 fn take_ownership(data: MyDataType) {
-    print!("My Data {}", data.data);
+    println!("My Data {}", data.data);
 }
 
 fn take_reference(data: &MyDataType) {
-    print!("My Data {}", data.data);
+    println!("My Data {}", data.data);
 }

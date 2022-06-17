@@ -18,6 +18,6 @@ fn use_generic<T>(data: Data<T>)
 where
     T: Display,
 {
-    print!("index {}", &data.index);
-    print!("index {}", &data.value);
+    println!("index {}", &data.index);
+    println!("index {}", &data.value);
 }

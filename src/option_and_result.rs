@@ -2,7 +2,7 @@ use std::fs;
 
 pub fn option_and_result() {
     let _value = divide(7.0, 0.0).unwrap_or(0.0);
-    print!("The value is {}", _value);
+    println!("The value is {}", _value);
 
     let _data_or_default = match read_file_if_existing("asdf.txt") {
         Some(data) => data,
